@@ -1,0 +1,25 @@
+{
+    "name": "max13/mxauth-laravel",
+    "description": "Harden the auth system by adding a pre-hash client-side",
+    "version": "v0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "authentication", "client-side salt"],
+    "authors": [
+        {
+            "name": "Adnan RIHAN",
+            "email": "adnan@rihan.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "" : "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    }
+}
